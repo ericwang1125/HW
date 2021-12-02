@@ -1,12 +1,25 @@
 <!DOCTYPE html>
 <head>
 	<title>talble and form</title>
+	<style types = "text/css">
+	body	{ font-family: arial, helvetica, sans-serif}
+	h1{	font-family:arial,sans-serif;
+		text-decoration: underline;
+	}
+	span {
+		color: purple;
+		border: 1px solid black;
+		}
+	.extra span {
+		color: inherit;
+		}
+	</style>
 </head>
 <body>
 	<table border = "1" style = "width:50%">
 	 <thead>
 		<tr>	
-			<th colspan = "3">110--110306089</th>
+			<th colspan = "3"><h1>110--110306089</h1></th>
 		</tr>
 	 </thead>
 		<tr>
@@ -14,7 +27,7 @@
 				<img src = "elon smoke.png" width = 205s
 					alt = elon>
 				<p>
-				Daddy Elon
+				<span>Daddy Elon</span>
 				</p>
 			</th>
 			<th colspan = "2">
@@ -65,7 +78,11 @@
 		</tr>
 		<tr>
 			<th>
-			<txt>Say Something:</txt><br></th>
+			<txt>
+			<div style="color:orange">
+			Say <span>Something:</span>
+			</div>
+			</txt><br></th>
 			<th colspan = "2">	<textarea row="4" cols="50">Enter comment here.
 				</textarea><br>
 			</th>
